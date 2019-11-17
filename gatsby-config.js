@@ -5,6 +5,7 @@ module.exports = {
     twitter: "PhilippRath"
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
