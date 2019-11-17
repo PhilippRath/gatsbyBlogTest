@@ -41,15 +41,16 @@ export const query = graphql`
 
  const Blog = (props) => {
    const options = {
-/*     renderNode: {
+     renderNode: {
       [BLOCKS.EMBEDDED_ASSET]: (node) => {
         const { title } = node.data.target.fields
-       const url = node.data.target.fields.file.url
-       const alt = node.data.target.fields.title['de']
-       return <img alt={alt} src={url} />
+        const url = node.data.target.fields.file.de.url
+        const alt = node.data.target.fields.title.de
+
+        return <img alt={alt} src={url} />
       },
      }
-*/
+
     }
   return (
     <Layout>
